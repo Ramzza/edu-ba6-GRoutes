@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.LoggedInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginRight="-4dp"
+            android:layout_marginTop="-5dp"
+            android:background="#1f4dd2fa"
+            android:contentDescription="@android:string/search_go"
+            android:onClick="onBtnActivitySearch"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="1"
+            android:background="#1fb8fd62"
+            android:contentDescription="@string/btn_history"
+            android:onClick="onBtnActivityHistory"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="1"
+            android:background="#1ffe9797"
+            android:contentDescription="@string/btn_favourite"
+            android:onClick="onBtnActivityFav"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/btn_star" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="1"
+            android:background="#1f796cb2"
+            android:contentDescription="@string/btn_groups"
+            android:onClick="onGroupActivity"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="40dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="-5dp"
+            android:layout_weight="1"
+            android:background="#1fa98787"
+            android:contentDescription="@string/btn_settings"
+            android:onClick="onBtnSettings"
+            android:scaleType="fitCenter"
+            app:srcCompat="@android:drawable/ic_menu_manage" />
+    </LinearLayout>
+</LinearLayout>

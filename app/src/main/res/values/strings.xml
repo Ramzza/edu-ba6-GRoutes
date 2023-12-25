@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">GRoutes</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="btn_history">History</string>
+    <string name="btn_favourite">Favourites</string>
+    <string name="btn_groups">Groups</string>
+    <string name="btn_settings">Settings</string>
+    <string name="title_activity_multi_route">Map</string>
+    <string name="title_activity_show_map">Map</string>
+    <string name="google_maps_key" translatable="false">YOUR_GOOGLE_MAPS_KEY</string>
+    <string name="btnAddFav">Add Fav</string>
+    <string name="btnStartNav">Start Navigation</string>
+    <string name="btnStopNav">Stop Navigation</string>
+    <string name="title_activity_login_tab">LoginTabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_register">Register</string>
+    <string name="btn_pw_reset">Reset password</string>
+    <string name="travel_mode_walk">Walking</string>
+    <string name="travel_mode_driving">Driving</string>
+    <string name="title_activity_fav_tab">FavTabActivity</string>
+    <string name="text_routes">Routes</string>
+    <string name="text_places">Places</string>
+    <string name="confUseExactUntil">Use exact algorithm until given number of nodes</string>
+    <string name="confUseExactUntil_list">confUseExactUntil_list</string>
+    <string name="confTravelMode">Travel mode</string>
+    <string name="confTravelMode_list">confTravelMode_list</string>
+    <string name="confZoom">Default map zoom</string>
+    <string name="confZoom_list">confZoom_list</string>
+    <string name="confPositionInterval">GPS positioning interval</string>
+    <string name="confPositionInterval_list">confPositionInterval_list</string>
+    <string name="confZoomInterval_list">confZoomInterval_list</string>
+    <string name="confNavHistory_list">confNavHistory_list</string>
+    <string name="confLang_list">confLang_list</string>
+    <string name="confDirectionTime_list">confDirectionTime_list</string>
+    <string name="confDistanceTime_list">confDistanceTime_list</string>
+    <string name="confZoomInterval">Auto zoom interval</string>
+    <string name="confNavHistory">Travel history size</string>
+    <string name="confLang">Language</string>
+    <string name="confDirectionTime">Search departure time</string>
+    <string name="confDistanceTime">Calculate route based on</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="invalid_address">Invalid address</string>
+</resources>

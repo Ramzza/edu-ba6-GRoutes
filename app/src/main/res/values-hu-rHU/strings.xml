@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GRoutes</string>
+    <string name="travel_mode_walk">Gyaloglás</string>
+    <string name="travel_mode_driving">Vezetés</string>
+    <string name="btn_pw_reset">Jelszó visszaállítás</string>
+    <string name="action_register">Regisztráció</string>
+    <string name="action_settings">Beállítások</string>
+</resources>
